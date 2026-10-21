@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store - Carrito</title>
+    <link rel="stylesheet" href="../../../../styles.css">
+</head>
+
+<body class="pagina-carrito">
+    <header>
+        <h1>Food Store</h1>
+        <nav>
+            <ul>
+                <li><a href="../home/home.html">Inicio</a></li>
+                <li><a href="./cart.html">Carrito <span id="contador-carrito" hidden>0</span></a></li>
+                <li><button type="button" id="logoutButton">Cerrar sesión</button></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h2>Mi carrito</h2>
+        <section id="lista-carrito"></section>
+        <p id="mensaje-vacio" hidden>Tu carrito está vacío.</p>
+        <div id="resumen-carrito" hidden>
+            <p>Total: <span id="total-carrito">0$</span></p>
+            <a href="../home/home.html">Seguir comprando</a>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p>Derechos reservados &copy; 2026 Food Store</p>
+        <hr>
+        <h2>Contacto</h2>
+        <ul>
+            <li>Teléfono: 123-456-7890</li>
+            <li>Email: info@foodstore.com</li>
+            <li>Dirección: Calle 123</li>
+            <li>Horario: Lunes a Viernes 8:00 - 20:00</li>
+        </ul>
+        <hr>
+        <h2>Redes sociales</h2>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+    <script type="module" src="./cart.ts"></script>
+</body>
+
+</html>

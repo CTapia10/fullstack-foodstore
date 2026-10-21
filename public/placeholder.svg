@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="280" viewBox="0 0 400 280" role="img" aria-label="Food Store">
+  <rect width="400" height="280" fill="#f0f2f5"/>
+  <rect x="24" y="24" width="352" height="232" rx="16" fill="#fff" stroke="#ddd"/>
+  <circle cx="200" cy="118" r="46" fill="#ff6347"/>
+  <rect x="130" y="176" width="140" height="16" rx="8" fill="#2c3e50"/>
+  <rect x="154" y="202" width="92" height="12" rx="6" fill="#ddd"/>
+</svg>
